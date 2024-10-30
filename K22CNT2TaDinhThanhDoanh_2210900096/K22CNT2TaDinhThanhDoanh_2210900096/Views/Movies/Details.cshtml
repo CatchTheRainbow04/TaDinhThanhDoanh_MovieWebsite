@@ -1,0 +1,78 @@
+﻿@model K22CNT2TaDinhThanhDoanh_2210900096.Models.Movies
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Movies</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VideoURL)
+        </dt>
+
+        <dd>
+            <video width="640" height="360" controls>
+                <source src="@Html.DisplayFor(model => model.VideoURL)" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+            @Html.DisplayFor(model => model.VideoURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThumbnailURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThumbnailURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MovieID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

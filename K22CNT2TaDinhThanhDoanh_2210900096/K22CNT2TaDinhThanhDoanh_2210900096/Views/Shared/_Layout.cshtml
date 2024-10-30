@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/MoviesIndex.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Navigator.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navigator">
+        <div class="nav-container">
+            <div class="left-nav">
+                <div class="logo">
+                    @Html.ActionLink("DMovies", "Index", "Movies")
+                </div>
+                <div class="ul-list">
+                    <ul class="nav-list-item">
+                        <li>@Html.ActionLink("Home", "Index", "Movies")</li>
+                        <li>@Html.ActionLink("Genres", "Index", "Genres")</li>
+                        <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
+                        <li>@Html.ActionLink("User", "Index", "Users")</li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="right-nav">
+                <div>Contact</div>
+                <div class="login-icon">hehe</div>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

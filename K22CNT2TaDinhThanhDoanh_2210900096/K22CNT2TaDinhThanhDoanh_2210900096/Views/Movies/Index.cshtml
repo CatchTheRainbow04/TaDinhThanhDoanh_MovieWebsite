@@ -1,0 +1,28 @@
+﻿@model IEnumerable<K22CNT2TaDinhThanhDoanh_2210900096.Models.Movies>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="index-movie-body">
+    <h2>Danh sách phim</h2>
+    <div class="MoviesIndexBody">
+        @foreach (var item in Model)
+        {
+            <div class="movies-item">
+                <img src="@Html.DisplayFor(modelItem => item.ThumbnailURL)" alt="Thumbnail của @Html.DisplayFor(modelItem => item.ThumbnailURL)" />
+                <div class="item-title">
+                    <div class="the-title">@Html.DisplayFor(modelItem => item.Title)</div>
+                    <div class="the-description">@Html.DisplayFor(modelItem => item.Description)</div>
+                    <div class="the-rate">Rate: @Html.DisplayFor(modelItem => item.Rating)/5</div>
+                    <div class="the-options">
+                        <button class="movie-index-edit-btn">@Html.ActionLink("Edit", "Edit", new { id = item.MovieID })</button>
+                        <button class="movie-index-detail-btn">@Html.ActionLink("Details", "Details", new { id = item.MovieID })</button>
+                        <button class="movie-index-delete-btn">@Html.ActionLink("Delete", "Delete", new { id = item.MovieID })</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <button class="btn btn-outline-dark">@Html.ActionLink("Create New", "Create")</button>
+</div>

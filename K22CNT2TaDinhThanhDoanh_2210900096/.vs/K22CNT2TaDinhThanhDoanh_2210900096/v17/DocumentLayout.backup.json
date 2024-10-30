@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|d:\\project2\\k22cnt2tadinhthanhdoanh_2210900096\\k22cnt2tadinhthanhdoanh_2210900096\\content\\navigator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|solutionrelative:k22cnt2tadinhthanhdoanh_2210900096\\content\\navigator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|d:\\project2\\k22cnt2tadinhthanhdoanh_2210900096\\k22cnt2tadinhthanhdoanh_2210900096\\content\\moviesindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|solutionrelative:k22cnt2tadinhthanhdoanh_2210900096\\content\\moviesindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\k22cnt2tadinhthanhdoanh_2210900096\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{195A4CA4-CED8-417C-B611-8B7266111804}|K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096.csproj|solutionrelative:k22cnt2tadinhthanhdoanh_2210900096\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "K22CNT2TaDinhThanhDoanh_2210900096\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "K22CNT2TaDinhThanhDoanh_2210900096\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T06:44:04.92Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navigator.css",
+              "DocumentMoniker": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Content\\Navigator.css",
+              "RelativeDocumentMoniker": "K22CNT2TaDinhThanhDoanh_2210900096\\Content\\Navigator.css",
+              "ToolTip": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Content\\Navigator.css",
+              "RelativeToolTip": "K22CNT2TaDinhThanhDoanh_2210900096\\Content\\Navigator.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-30T08:34:01.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesIndex.css",
+              "DocumentMoniker": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Content\\MoviesIndex.css",
+              "RelativeDocumentMoniker": "K22CNT2TaDinhThanhDoanh_2210900096\\Content\\MoviesIndex.css",
+              "ToolTip": "D:\\Project2\\K22CNT2TaDinhThanhDoanh_2210900096\\K22CNT2TaDinhThanhDoanh_2210900096\\Content\\MoviesIndex.css",
+              "RelativeToolTip": "K22CNT2TaDinhThanhDoanh_2210900096\\Content\\MoviesIndex.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-30T07:59:53.276Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
